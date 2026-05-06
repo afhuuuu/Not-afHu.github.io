@@ -8,35 +8,35 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/Not-afHu.github.io/img/fluid.png">
+  <link rel="icon" href="/Not-afHu.github.io/img/fluid.png">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="afHu">
   <meta name="keywords" content="">
   
     <meta name="description" content="(有待更新，这篇很旧以前写的，当时学的不太懂) Coppersmith算法 需要关注题目给的数据需不需要再去补0，二进制就需要2，十进制就10 如果题目给的p&gt;&gt;100 &#x3D; 2101051…这种就需要在后面补零*2**100或者p&lt;&lt;100 以已知p高位或者低位的题型来说，不考虑episilon参数(就是small_roots()里的beta参数)，coppers">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Coppersmith算法">
-<meta property="og:url" content="http://example.com/localpost/Coppersmith%E7%AE%97%E6%B3%95.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:url" content="https://afhuuuu.github.io/Not-afHu.github.io/localpost/Coppersmith%E7%AE%97%E6%B3%95.html">
+<meta property="og:site_name" content="afHu&#39;s Blog">
 <meta property="og:description" content="(有待更新，这篇很旧以前写的，当时学的不太懂) Coppersmith算法 需要关注题目给的数据需不需要再去补0，二进制就需要2，十进制就10 如果题目给的p&gt;&gt;100 &#x3D; 2101051…这种就需要在后面补零*2**100或者p&lt;&lt;100 以已知p高位或者低位的题型来说，不考虑episilon参数(就是small_roots()里的beta参数)，coppers">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/img/bg/bannerimg3.jpg">
+<meta property="og:image" content="https://afhuuuu.github.io/Not-afHu.github.io/img/bg/bannerimg3.jpg">
 <meta property="article:published_time" content="2024-02-21T14:08:45.000Z">
-<meta property="article:modified_time" content="2024-09-08T15:04:30.463Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:modified_time" content="2025-06-07T16:51:05.896Z">
+<meta property="article:author" content="afHu">
 <meta property="article:tag" content="RSA算法">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/img/bg/bannerimg3.jpg">
+<meta name="twitter:image" content="https://afhuuuu.github.io/Not-afHu.github.io/img/bg/bannerimg3.jpg">
   
   
   
-  <title>Coppersmith算法 - Hexo</title>
+  <title>Coppersmith算法 - afHu&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -54,12 +54,12 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
 
 
-<link  rel="stylesheet" href="/css/main.css" />
+<link  rel="stylesheet" href="/Not-afHu.github.io/css/main.css" />
 
 
-  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  <link id="highlight-css" rel="stylesheet" href="/Not-afHu.github.io/css/highlight.css" />
   
-    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+    <link id="highlight-css-dark" rel="stylesheet" href="/Not-afHu.github.io/css/highlight-dark.css" />
   
 
 
@@ -68,15 +68,15 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"afhuuuu.github.io","root":"/Not-afHu.github.io/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Not-afHu.github.io/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
       Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
     }
   </script>
-  <script  src="/js/utils.js" ></script>
-  <script  src="/js/color-schema.js" ></script>
+  <script  src="/Not-afHu.github.io/js/utils.js" ></script>
+  <script  src="/Not-afHu.github.io/js/color-schema.js" ></script>
   
 
 
@@ -93,7 +93,7 @@
 <div class="header-inner" style="height: 60vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/Not-afHu.github.io/">
       <strong>afHu&#39;s Blog</strong>
     </a>
 
@@ -112,7 +112,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
                 <span>首页</span>
               </a>
@@ -124,7 +124,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
                 <span>归档</span>
               </a>
@@ -136,7 +136,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
                 <span>分类</span>
               </a>
@@ -148,7 +148,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
                 <span>标签</span>
               </a>
@@ -160,7 +160,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
                 <span>关于</span>
               </a>
@@ -172,7 +172,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/links/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/links/" target="_self">
                 <i class="iconfont icon-link-fill"></i>
                 <span>友链</span>
               </a>
@@ -202,7 +202,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/bg/bannerimg3.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/Not-afHu.github.io/img/bg/bannerimg3.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -282,7 +282,7 @@
 <hr>
 <h3 id="已知p高位求低位"><a href="#已知p高位求低位" class="headerlink" title="已知p高位求低位"></a>已知p高位求低位</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> sage.<span class="hljs-built_in">all</span> <span class="hljs-keyword">import</span> *<br>n=<span class="hljs-number">12784625729032789592766625203074018101354917751492952685083808825504221816847310910447532133616954262271205877651255598995305639194329607493047941212754523879402744065076183778452640602625242851184095546100200565113016690161053808950384458996881574266573992526357954507491397978278604102524731393059303476350167738237822647246425836482533150025923051544431330502522043833872580483142594571802189321599016725741260254170793393777293145010525686561904427613648184843619301241414264343057368192416551134404100386155751297424616254697041043851852081071306219462991969849123668248321130382231769250865190227630009181759219</span><br><br>e=<span class="hljs-number">65537</span><br><br>c=<span class="hljs-number">627824086157119245056478875800598959553774250161670787506083253960788230737588761787385686125828765665617567887904228030839535317987589608761534500003128247164233774794784231518212804270056404565710426613938264302998015421153393879729263551292024543756422702956470022959537221269172084619081368498693930550456153543628170306324206266216348386707008661128717431426237486511309767286175518238620230507201952867261283880986868752676549613958785288914989429224582849218395471672295410036858881836363364885164276983237312235831591858044908369376855484127614933545955544787160352042318378588039587911741028067576722790778</span><br><span class="hljs-comment">#p&gt;&gt;128&lt;&lt;128=high_p</span><br>high_p=<span class="hljs-number">97522826022187678545924975588711975512906538181361325096919121233043973599759518562689050415761485716705615149641768982838255403594331293651224395590747133152128042950062103156564440155088882592644046069208405360324372057140890317518802130081198060093576841538008960560391380395697098964411821716664506908672</span><br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">coppersmith2</span>(<span class="hljs-params">high_p,n,c,e</span>):<br>    x = PolynomialRing(Zmod(n),<span class="hljs-string">&#x27;x&#x27;</span>).gen()<br>    <br>    p = high_p + x<br>    <br>    x0 = p.small_roots(X = <span class="hljs-number">2</span>**<span class="hljs-number">128</span>,beta = <span class="hljs-number">0.1</span>)[<span class="hljs-number">0</span>]<span class="hljs-comment">#在这里p&gt;n**0.4,控制beta参数后就是mod p了，不是mod n , X参数是x的上界</span><br>    <br>    P = <span class="hljs-built_in">int</span>(p(x0))<br>    <br>    Q = n // P<br>    <br>    d = inverse_mod(e, (P-<span class="hljs-number">1</span>)*(Q-<span class="hljs-number">1</span>))<br>    <br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;方程二&quot;</span>,<span class="hljs-built_in">hex</span>(power_mod(c, d, n)))<br><br>coppersmith2(high_p,n,c,e)<br></code></pre></td></tr></table></figure>
 <hr>
-<h3 id="已知d高位求p，q"><a href="#已知d高位求p，q" class="headerlink" title="已知d高位求p，q"></a>已知d高位求p，q</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> sage.<span class="hljs-built_in">all</span> <span class="hljs-keyword">import</span> * <span class="hljs-comment">#vscode里跑不了，放sage里跑</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">getFullP</span>(<span class="hljs-params">low_p, n</span>):<br>    R.&lt;x&gt; = PolynomialRing(Zmod(n), implementation=<span class="hljs-string">&#x27;NTL&#x27;</span>)<br>    f = x*<span class="hljs-number">2</span>^<span class="hljs-number">512</span> + low_p<span class="hljs-comment">#x补零，原题给了d mod 2**512 ，即d的低512位</span><br>    res = f.monic().small_roots(X = <span class="hljs-number">2</span>^<span class="hljs-number">128</span>, beta = <span class="hljs-number">0.4</span>)<br>    <span class="hljs-keyword">if</span> res:<br>        p = <span class="hljs-built_in">int</span>(f(res[<span class="hljs-number">0</span>]))<br>        <span class="hljs-keyword">return</span> p<br>    <br><span class="hljs-keyword">def</span> <span class="hljs-title function_">phase4</span>(<span class="hljs-params">low_d, n, c</span>):<br>    maybe_p = []<br>    <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>, <span class="hljs-number">4</span>):<br>        p = var(<span class="hljs-string">&#x27;p&#x27;</span>)<br>        p0 = solve_mod([<span class="hljs-number">3</span>*p*low_d  == p + k*(n*p - p^<span class="hljs-number">2</span> - n + p)], <span class="hljs-number">2</span>^<span class="hljs-number">512</span>)<span class="hljs-comment">#根据题目写出的同余方程</span><br>        maybe_p += [<span class="hljs-built_in">int</span>(x[<span class="hljs-number">0</span>]) <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> p0]<br>    <span class="hljs-built_in">print</span>(maybe_p)<span class="hljs-comment">#计算出来的是p低512位，</span><br>    <br>    <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> maybe_p:<br>        P = getFullP(x, n)<br>        <span class="hljs-keyword">if</span> P: <span class="hljs-keyword">break</span><br>    <br>    P = <span class="hljs-built_in">int</span>(P)<br>    Q = n // P<br>    <br>    <span class="hljs-keyword">assert</span> P*Q == n<br>    <br>    d = inverse_mod(<span class="hljs-number">3</span>, (P-<span class="hljs-number">1</span>)*(Q-<span class="hljs-number">1</span>))<br>    <span class="hljs-built_in">print</span>(<span class="hljs-built_in">hex</span>(power_mod(c, d, n))[<span class="hljs-number">2</span>:])<br>    <br><br><br>n = <span class="hljs-number">92896523979616431783569762645945918751162321185159790302085768095763248357146198882641160678623069857011832929179987623492267852304178894461486295864091871341339490870689110279720283415976342208476126414933914026436666789270209690168581379143120688241413470569887426810705898518783625903350928784794371176183</span><br>c = <span class="hljs-number">56164378185049402404287763972280630295410174183649054805947329504892979921131852321281317326306506444145699012788547718091371389698969718830761120076359634262880912417797038049510647237337251037070369278596191506725812511682495575589039521646062521091457438869068866365907962691742604895495670783101319608530</span><br>low_d = <span class="hljs-number">787673996295376297668171075170955852109814939442242049800811601753001897317556022653997651874897208487913321031340711138331360350633965420642045383644955</span><br><br>phase4(low_d, n, c)<br></code></pre></td></tr></table></figure>
+<h3 id="已知d低位求p，q"><a href="#已知d低位求p，q" class="headerlink" title="已知d低位求p，q"></a>已知d低位求p，q</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> sage.<span class="hljs-built_in">all</span> <span class="hljs-keyword">import</span> * <span class="hljs-comment">#vscode里跑不了，放sage里跑</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">getFullP</span>(<span class="hljs-params">low_p, n</span>):<br>    R.&lt;x&gt; = PolynomialRing(Zmod(n), implementation=<span class="hljs-string">&#x27;NTL&#x27;</span>)<br>    f = x*<span class="hljs-number">2</span>^<span class="hljs-number">512</span> + low_p<span class="hljs-comment">#x补零，原题给了d mod 2**512 ，即d的低512位</span><br>    res = f.monic().small_roots(X = <span class="hljs-number">2</span>^<span class="hljs-number">128</span>, beta = <span class="hljs-number">0.4</span>)<br>    <span class="hljs-keyword">if</span> res:<br>        p = <span class="hljs-built_in">int</span>(f(res[<span class="hljs-number">0</span>]))<br>        <span class="hljs-keyword">return</span> p<br>    <br><span class="hljs-keyword">def</span> <span class="hljs-title function_">phase4</span>(<span class="hljs-params">low_d, n, c</span>):<br>    maybe_p = []<br>    <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">1</span>, <span class="hljs-number">4</span>):<br>        p = var(<span class="hljs-string">&#x27;p&#x27;</span>)<br>        p0 = solve_mod([<span class="hljs-number">3</span>*p*low_d  == p + k*(n*p - p^<span class="hljs-number">2</span> - n + p)], <span class="hljs-number">2</span>^<span class="hljs-number">512</span>)<span class="hljs-comment">#根据题目写出的同余方程</span><br>        maybe_p += [<span class="hljs-built_in">int</span>(x[<span class="hljs-number">0</span>]) <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> p0]<br>    <span class="hljs-built_in">print</span>(maybe_p)<span class="hljs-comment">#计算出来的是p低512位，</span><br>    <br>    <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> maybe_p:<br>        P = getFullP(x, n)<br>        <span class="hljs-keyword">if</span> P: <span class="hljs-keyword">break</span><br>    <br>    P = <span class="hljs-built_in">int</span>(P)<br>    Q = n // P<br>    <br>    <span class="hljs-keyword">assert</span> P*Q == n<br>    <br>    d = inverse_mod(<span class="hljs-number">3</span>, (P-<span class="hljs-number">1</span>)*(Q-<span class="hljs-number">1</span>))<br>    <span class="hljs-built_in">print</span>(<span class="hljs-built_in">hex</span>(power_mod(c, d, n))[<span class="hljs-number">2</span>:])<br>    <br><br><br>n = <span class="hljs-number">92896523979616431783569762645945918751162321185159790302085768095763248357146198882641160678623069857011832929179987623492267852304178894461486295864091871341339490870689110279720283415976342208476126414933914026436666789270209690168581379143120688241413470569887426810705898518783625903350928784794371176183</span><br>c = <span class="hljs-number">56164378185049402404287763972280630295410174183649054805947329504892979921131852321281317326306506444145699012788547718091371389698969718830761120076359634262880912417797038049510647237337251037070369278596191506725812511682495575589039521646062521091457438869068866365907962691742604895495670783101319608530</span><br>low_d = <span class="hljs-number">787673996295376297668171075170955852109814939442242049800811601753001897317556022653997651874897208487913321031340711138331360350633965420642045383644955</span><br><br>phase4(low_d, n, c)<br></code></pre></td></tr></table></figure>
 
 <hr>
 <p><strong>参考：<a target="_blank" rel="noopener" href="https://www.ruanx.net/coppersmith/">Coppersmith 攻击</a></strong><br><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" rel="noopener" href="https://github.com/mimoo/RSA-and-LLL-attacks/blob/master/boneh_durfee.sage">RSA-and-LLL-attacks</a></strong><br><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" rel="noopener" href="https://ctf-wiki.org/crypto/asymmetric/rsa/rsa_coppersmith_attack/#boneh-and-durfee-attack">CTF Wiki</a></strong></p>
@@ -363,8 +363,8 @@
 
 <script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/js/events.js" ></script>
-<script  src="/js/plugins.js" ></script>
+<script  src="/Not-afHu.github.io/js/events.js" ></script>
+<script  src="/Not-afHu.github.io/js/plugins.js" ></script>
 
 
   <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
@@ -386,13 +386,13 @@
 
 
   
-    <script  src="/js/img-lazyload.js" ></script>
+    <script  src="/Not-afHu.github.io/js/img-lazyload.js" ></script>
   
 
 
 
 
-  <script  src="/js/local-search.js" ></script>
+  <script  src="/Not-afHu.github.io/js/local-search.js" ></script>
 
 
 
@@ -400,7 +400,7 @@
 
 <!-- 主题的启动项，将它保持在最底部 -->
 <!-- the boot of the theme, keep it at the bottom -->
-<script  src="/js/boot.js" ></script>
+<script  src="/Not-afHu.github.io/js/boot.js" ></script>
 
 
   

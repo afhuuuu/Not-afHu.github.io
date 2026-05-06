@@ -8,35 +8,35 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/Not-afHu.github.io/img/fluid.png">
+  <link rel="icon" href="/Not-afHu.github.io/img/fluid.png">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="afHu">
   <meta name="keywords" content="">
   
     <meta name="description" content="AES Padding Oracle Attack先回顾一下AES的CBC模式 加密：Ci &#x3D; Ek(Pi ⊕ Ci-1)C0 &#x3D; IV解密：Pi &#x3D; Dk(Ci ⊕ Ci-1)C0 &#x3D; IV CBC字节翻转攻击对于CBC模式的解密算法，每一组明文进行分组算法解密之后，需要和前一组的密文异或才能得到明文。第一组则是和初始向量IV进行异或。 CBC字节翻转攻击">
 <meta property="og:type" content="website">
 <meta property="og:title" content="AES Padding Oracle Attack">
-<meta property="og:url" content="http://example.com/localpost/AES%20Padding%20Oracle%20Attack.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:url" content="https://afhuuuu.github.io/Not-afHu.github.io/localpost/AES%20Padding%20Oracle%20Attack.html">
+<meta property="og:site_name" content="afHu&#39;s Blog">
 <meta property="og:description" content="AES Padding Oracle Attack先回顾一下AES的CBC模式 加密：Ci &#x3D; Ek(Pi ⊕ Ci-1)C0 &#x3D; IV解密：Pi &#x3D; Dk(Ci ⊕ Ci-1)C0 &#x3D; IV CBC字节翻转攻击对于CBC模式的解密算法，每一组明文进行分组算法解密之后，需要和前一组的密文异或才能得到明文。第一组则是和初始向量IV进行异或。 CBC字节翻转攻击">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/img/bg/bannerimg7.jpg">
+<meta property="og:image" content="https://afhuuuu.github.io/Not-afHu.github.io/img/bg/bannerimg7.jpg">
 <meta property="article:published_time" content="2024-03-02T01:35:38.000Z">
 <meta property="article:modified_time" content="2024-09-08T15:04:31.287Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="afHu">
 <meta property="article:tag" content="AES">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/img/bg/bannerimg7.jpg">
+<meta name="twitter:image" content="https://afhuuuu.github.io/Not-afHu.github.io/img/bg/bannerimg7.jpg">
   
   
   
-  <title>AES Padding Oracle Attack - Hexo</title>
+  <title>AES Padding Oracle Attack - afHu&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -54,12 +54,12 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
 
 
-<link  rel="stylesheet" href="/css/main.css" />
+<link  rel="stylesheet" href="/Not-afHu.github.io/css/main.css" />
 
 
-  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  <link id="highlight-css" rel="stylesheet" href="/Not-afHu.github.io/css/highlight.css" />
   
-    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+    <link id="highlight-css-dark" rel="stylesheet" href="/Not-afHu.github.io/css/highlight-dark.css" />
   
 
 
@@ -68,15 +68,15 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"afhuuuu.github.io","root":"/Not-afHu.github.io/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Not-afHu.github.io/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
       Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
     }
   </script>
-  <script  src="/js/utils.js" ></script>
-  <script  src="/js/color-schema.js" ></script>
+  <script  src="/Not-afHu.github.io/js/utils.js" ></script>
+  <script  src="/Not-afHu.github.io/js/color-schema.js" ></script>
   
 
 
@@ -93,7 +93,7 @@
 <div class="header-inner" style="height: 60vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/Not-afHu.github.io/">
       <strong>afHu&#39;s Blog</strong>
     </a>
 
@@ -112,7 +112,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
                 <span>首页</span>
               </a>
@@ -124,7 +124,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
                 <span>归档</span>
               </a>
@@ -136,7 +136,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
                 <span>分类</span>
               </a>
@@ -148,7 +148,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
                 <span>标签</span>
               </a>
@@ -160,7 +160,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
                 <span>关于</span>
               </a>
@@ -172,7 +172,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/links/" target="_self">
+              <a class="nav-link" href="/Not-afHu.github.io/links/" target="_self">
                 <i class="iconfont icon-link-fill"></i>
                 <span>友链</span>
               </a>
@@ -202,7 +202,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/bg/bannerimg7.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/Not-afHu.github.io/img/bg/bannerimg7.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -243,7 +243,7 @@
 <p><strong>假设现在我们有第 N-1 组密文某一位的值 A ，以及第 N 组密文相同位置经过分组解密后的值 B ，于是我们能够很容易得到第 N 组该位置上的明文 C 。</strong><br><strong><center>A ⊕ B &#x3D; C</center></strong><br><strong>如果我们破坏第 N-1 组的密文 A ，将其与明文 C 进行异或运算，由异或的性质可以得到下式：</strong></p>
 <p><strong><center>A ⊕ C ⊕ B &#x3D; C ⊕ C &#x3D; 0</center></strong><br><strong>可以看见，现在计算出的明文变成0了，现在我们可以将明文随意更改成我们想要的字符。只需要在上一组的密文异或我们想要的字符即可，假设我们想将明文 C 更改为 X ，可以由下式得出：</strong></p>
 <p><strong><center>A ⊕ C ⊕ X ⊕ B &#x3D; C ⊕ C ⊕ X &#x3D; X</center></strong><br><strong>此时我们已经通过破坏密文将明文更改成我们想要的字符，具体攻击流程可以参考下图</strong></p>
-<p><img src="/img/bg/CBC.jpg" srcset="/img/loading.gif" lazyload alt="CBC字节翻转攻击流程"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="CBC字节翻转攻击流程"></p>
 <p><strong>用Python模拟一下攻击流程</strong></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> Crypto.Cipher <span class="hljs-keyword">import</span> AES<br><span class="hljs-keyword">import</span> uuid<br><span class="hljs-keyword">import</span> binascii<br> <br> <br>BS=AES.block_size  <span class="hljs-comment">#分组长度</span><br>key=<span class="hljs-string">b&#x27;test&#x27;</span>  <span class="hljs-comment">#密钥</span><br>iv=uuid.uuid4().<span class="hljs-built_in">bytes</span>  <span class="hljs-comment">#随机初始向量</span><br>pad=<span class="hljs-keyword">lambda</span> s: s+((BS-<span class="hljs-built_in">len</span>(s)%BS)*<span class="hljs-built_in">chr</span>(BS-<span class="hljs-built_in">len</span>(s)%BS)).encode()  <span class="hljs-comment">#Pkcs5Padding</span><br>data=<span class="hljs-string">b&#x27;1234567890abcdefabcdef1234567890&#x27;</span>  <span class="hljs-comment">#明文M</span><br> <br><span class="hljs-comment">#加密</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">enc</span>(<span class="hljs-params">data</span>):<br>    aes=AES.new(pad(key),AES.MODE_CBC,iv)<br>    ciphertext=aes.encrypt(pad(data))<br>    ciphertext=binascii.b2a_hex(ciphertext)<br>    <span class="hljs-keyword">return</span> ciphertext<br> <br><span class="hljs-comment">#解密</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">dec</span>(<span class="hljs-params">c</span>):<br>    c=binascii.a2b_hex(c)<br>    aes=AES.new(pad(key),AES.MODE_CBC,iv)<br>    data=aes.decrypt(c)<br>    <span class="hljs-keyword">return</span> data<br> <br><span class="hljs-comment">#测试CBC翻转</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">CBC_test</span>(<span class="hljs-params">c</span>):<br>    c=<span class="hljs-built_in">bytearray</span>(binascii.a2b_hex(c))<br>    c[<span class="hljs-number">0</span>]=c[<span class="hljs-number">0</span>]^<span class="hljs-built_in">ord</span>(<span class="hljs-string">&#x27;a&#x27;</span>)^<span class="hljs-built_in">ord</span>(<span class="hljs-string">&#x27;A&#x27;</span>) <span class="hljs-comment">#c[0]为第一组的密文字符，a为第二组相应位置的明文字符，A是我们想要的明文字符</span><br>    c=binascii.b2a_hex(c)<br>    <span class="hljs-keyword">return</span> c<br> <br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;ciphertext:&quot;</span>,enc(data))<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;data:&quot;</span>,dec(enc(data)))<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;CBC Attack:&quot;</span>,dec(CBC_test(enc(data))))<br></code></pre></td></tr></table></figure>
 <p><strong>运行结果</strong></p>
@@ -279,33 +279,33 @@
 <p><strong>假设我们使用PKCS5填充，可以转换为以下形式：</strong></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">BRIAN;<span class="hljs-number">12</span>;<span class="hljs-number">1</span>;0x050x050x050x050x05<br><span class="hljs-comment">#16字节，符合Pkcs5分组长度，可以将以上字符串分为两组，每组8字节</span><br></code></pre></td></tr></table></figure>
 <p><strong>下面是CBC的加密过程</strong></p>
-<p><img src="/img/bg/CBC1.jpg" srcset="/img/loading.gif" lazyload alt="CBC加密"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC1.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="CBC加密"></p>
 <p><strong>这里设置的初始向量iv为<code>0x7B 0x21 0x6A 0x63 0x49 0x51 0x17 0x0F</code>，这时服务器发送的Cookie应该为<code>7B216A634951170FF851D6CC68FC9537858795A28ED4AAC6</code>，初始向量iv被填充在加密密文之前。</strong></p>
 <p><strong>CBC解密过程如下</strong></p>
-<p><img src="/img/bg/CBC2.jpg" srcset="/img/loading.gif" lazyload alt="CBC解密"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC2.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="CBC解密"></p>
 <p><strong>密文进行分组解密之后会产生中间值Intermediary Value，这些中间值再和前一组密文异或便会得到本组明文。解密出的明文后面会有正确的填充块。当然在客户端，我们无法得知这些中间值是什么。</strong></p>
 <h3 id="攻击原理一"><a href="#攻击原理一" class="headerlink" title="攻击原理一"></a>攻击原理一</h3><p><strong>首先我们可以更改Cookie 中的初始向量iv，将iv的值改为全零，并且只发送第一个加密块。此时Cookie变为</strong><br><strong><code>Cookie：0000000000000000F851D6CC68FC9537</code></strong></p>
 <p><strong>服务器端的解密过程如下</strong></p>
-<p><img src="/img/bg/CBC3.jpg" srcset="/img/loading.gif" lazyload alt="攻击原理一"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC3.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="攻击原理一"></p>
 <p><strong>可以看到，如果按照我们发送的错误数据来解密的话，最后一位数据是<code>0x3D</code>。而正常的解密数据最后是包含填充数据的。对于分组长度为8字节来说，这些填充数据的值位于<code>0x01-0x08</code>，而<code>0x3D</code>并不在其中。所以服务器会检测到填充块错误，返回500异常。</strong></p>
 <h3 id="攻击原理二"><a href="#攻击原理二" class="headerlink" title="攻击原理二"></a>攻击原理二</h3><p><strong>我们再次更改Cookie中的初始向量iv，和上次不同的是，我们将iv最后一位的值改为<code>0x01</code>，此时Cookie的值如下</strong><br><strong><code>Cookie：0000000000000001F851D6CC68FC9537</code></strong></p>
 <p><strong>我们再次将Cookie发送给服务器端解密</strong></p>
-<p><img src="/img/bg/CBC4.jpg" srcset="/img/loading.gif" lazyload alt="攻击原理二"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC4.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="攻击原理二"></p>
 <p><strong>可以看见，此时明文最后一位变成了<code>0x3C</code>，这仍然不是正确的填充数据，服务器同样会返回500异常。但是与上次不一样的是，明文最后一位的值从<code>0x3D</code>变为了<code>0x3C</code>。也就是说，我们可以通过控制初始向量iv的值来控制明文输出。</strong></p>
 <p><strong>如果我们重复发出相同的请求并每次只更改iv中同一个字节的值（最多至0xFF），我们肯定能够碰到一个值，使明文符合填充规律。</strong></p>
 <h3 id="攻击原理三"><a href="#攻击原理三" class="headerlink" title="攻击原理三"></a>攻击原理三</h3><p><strong>假设我们通过不断发送类似的Cookie给服务器端解密，找到了一个使明文符合填充规律的Cookie，此时服务器端的解密过程如下</strong></p>
-<p><img src="/img/bg/CBC5.jpg" srcset="/img/loading.gif" lazyload alt="攻击原理三"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC5.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="攻击原理三"></p>
 <p><strong>解密后的明文最后一位为<code>0x01</code>，符合填充规律，但是明文结果并不正确。此时服务器会返回200OK自定义页面。由于填充规律是固定的，我们只更改了一位iv的值，所以解密明文肯定是一位填充数据，值为<code>0x01</code>。此时我们可以根据以下公式得到一位加密的中间值<code>0x3D</code></strong><br><strong><center>0x3D &#x3D; 0x3C ⊕ 0x01</center></strong></p>
 <h3 id="攻击原理四"><a href="#攻击原理四" class="headerlink" title="攻击原理四"></a>攻击原理四</h3><p><strong>类似地，我们可以爆破iv值的每一位，直到解密出来的每一位明文数据都变成全部符合填充规律的<code>0x08</code>，解密过程如下</strong></p>
-<p><img src="/img/bg/CBC6.jpg" srcset="/img/loading.gif" lazyload alt="攻击原理四"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC6.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="攻击原理四"></p>
 <p><strong>至此，我们可以利用Padding Oracle Attack来爆破出每一组加密中间值。然后再使用第一组的中间值和服务器端初始的iv异或，便可以得到第一组明文。继续使用CBC Mode解密，可以依次得到所有明文分组。</strong></p>
 <p><strong>对于每一组，至多需要尝试256*8次也就是2048次，便可爆破出加密中间值。这样我们就可以绕过加密，从而直接获得密文的明文。</strong></p>
 <h3 id="攻击原理五"><a href="#攻击原理五" class="headerlink" title="攻击原理五"></a>攻击原理五</h3><p><strong>在利用测试四中，我们已经能够利用Padding Oracle Attack爆破出所有中间值和明文了，那么我们该怎么构造出任意明文的合法密文呢？</strong></p>
 <p><strong>首先我们先看单一分组的情况</strong></p>
-<p><img src="/img/bg/CBC6.jpg" srcset="/img/loading.gif" lazyload alt="单一分组"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC6.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="单一分组"></p>
 <p><strong>由于我们已经爆破出了intermediary，所以我们可以很容易地构造出iv来生成任意明文。</strong></p>
 <p><strong>那么对于多组明文，情况又是怎样的呢？</strong></p>
-<p><img src="/img/bg/CBC7.jpg" srcset="/img/loading.gif" lazyload alt="多组情况"></p>
+<p><img src="/Not-afHu.github.io/img/bg/CBC7.jpg" srcset="/Not-afHu.github.io/img/loading.gif" lazyload alt="多组情况"></p>
 <p><strong>先从最后一组开始，爆破最后一组的intermediary并构造出iv，然后将本组的iv当作前一组的密文，以此类推。由此我们可以得到构造密文的步骤</strong></p>
 <ol>
 <li><strong>从最后一组开始，爆破出该组的intermediary并构造出iv，然后将本组的iv当作前一组的密文</strong></li>
@@ -477,8 +477,8 @@
 
 <script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/js/events.js" ></script>
-<script  src="/js/plugins.js" ></script>
+<script  src="/Not-afHu.github.io/js/events.js" ></script>
+<script  src="/Not-afHu.github.io/js/plugins.js" ></script>
 
 
   <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
@@ -500,13 +500,13 @@
 
 
   
-    <script  src="/js/img-lazyload.js" ></script>
+    <script  src="/Not-afHu.github.io/js/img-lazyload.js" ></script>
   
 
 
 
 
-  <script  src="/js/local-search.js" ></script>
+  <script  src="/Not-afHu.github.io/js/local-search.js" ></script>
 
 
 
@@ -514,7 +514,7 @@
 
 <!-- 主题的启动项，将它保持在最底部 -->
 <!-- the boot of the theme, keep it at the bottom -->
-<script  src="/js/boot.js" ></script>
+<script  src="/Not-afHu.github.io/js/boot.js" ></script>
 
 
   
